@@ -110,7 +110,7 @@
             finalResult.forEach((choice) => {
                 console.log(choice.from.name + ' > ' + choice.to.name)
                 /*$.post(
-                    'index.php',
+                    'mailing.php',
                     {
                         name:   choice.from.name,
                         email:  choice.from.mail,
@@ -173,7 +173,7 @@
                 console.log(choice.from.name + ' > ' + choice.to.name)
                 if (prod)
                     $.post(
-                        'https://karacsonyasd.herokuapp.com/',
+                        '/mailing.php',
                         {
                             name:   choice.from.name,
                             email:  choice.from.mail,
