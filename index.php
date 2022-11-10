@@ -1,3 +1,7 @@
+<?php
+include_once "mailAPI.php"
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,7 +177,7 @@
                 console.log(choice.from.name + ' > ' + choice.to.name)
                 if (prod)
                     $.post(
-                        'mailAPI.php',
+                        '/',
                         {
                             name:   choice.from.name,
                             email:  choice.from.mail,
