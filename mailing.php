@@ -1,6 +1,6 @@
 <?php
 //Küldő mail cím
-$noreplyAddress = "noreply@wewrite.hu";
+$noreplyAddress = "noreply@writengo.hu";
 
 $name = $chosen = $email = "";
 if (!empty($_POST["name"])) {
